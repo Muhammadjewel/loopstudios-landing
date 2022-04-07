@@ -69,6 +69,11 @@ img {
 /* INDEX-HERO-WRAPPER */
 .index-hero-wrapper {
   background-color: #000;
+  background-image: url("../img/index-hero-wrapper-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 
@@ -143,6 +148,26 @@ img {
 }
 
 
+/* HERO */
+.hero {
+  padding-top: 60px;
+  padding-bottom: 146px;
+  color: #fff;
+}
+
+.hero__lead {
+  width: 100%;
+  max-width: 650px;
+  padding: 40px;
+  border: 2px solid #fff;
+  font-family: "Josefin Sans", "Arial", sans-serif;
+  text-transform: uppercase;
+  font-size: 72px;
+  line-height: 70px;
+  font-weight: 300;
+}
+
+
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
@@ -150,5 +175,7 @@ only screen and (     -o-min-device-pixel-ratio: 2/1),
 only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
-
+  .index-hero-wrapper {
+    background-image: url("../img/index-hero-wrapper-bg@2x.jpg");
+  }
 }
