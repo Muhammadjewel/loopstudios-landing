@@ -156,6 +156,7 @@ img {
 }
 
 .hero__lead {
+  margin: 0;
   width: 100%;
   max-width: 650px;
   padding: 40px;
