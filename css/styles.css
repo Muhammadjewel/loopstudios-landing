@@ -67,6 +67,30 @@ img {
 }
 
 
+/* BUTTON */
+.button {
+  display: inline-block;
+  padding: 13px;
+  border: 1px solid #000;
+  min-width: 157px;
+  font-size: 14px;
+  line-height: 14px;
+  color: #000;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 5px;
+  cursor: pointer;
+  transition: background-color 0.4s ease,
+    color 0.4s ease;
+}
+
+.button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+
 /* MAIN-CONTENT */
 .main-content {
   flex-grow: 1;
@@ -205,6 +229,32 @@ img {
 .promo__heading {
   margin-top: 0;
   margin-bottom: 25px;
+  font-family: var(--heading-font-stack);
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #000;
+}
+
+
+/* INDEX-CREATIONS */
+.index-creations {
+  padding-top: 92px;
+  padding-bottom: 184px;
+}
+
+.index-creations__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.index-creations__heading {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 24px;
   font-family: var(--heading-font-stack);
   font-size: 48px;
   line-height: 48px;
